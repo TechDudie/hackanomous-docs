@@ -1,6 +1,6 @@
 ---
-title: "Documentation"
-description: "Welcome to the docs."
+title: "Welcome to the Hackanomous Docs"
+description: "Welcome to Hackanomous. Lets show you around!"
 order: 0
 ---
 
