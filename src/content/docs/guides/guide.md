@@ -1,7 +1,7 @@
 ---
-title: "Installation"
+title: "Guide"
 description: "How to install and set up."
-order: 1
+order: 2
 ---
 
 ## Prerequisites
