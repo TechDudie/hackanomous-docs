@@ -44,11 +44,13 @@
 									class="data-[state=open]:bg-sidebar-accent data-[state=open]:text-sidebar-accent-foreground"
 									{...props}
 								>
-									<div
-										class="bg-sidebar-primary text-sidebar-primary-foreground flex aspect-square size-8 items-center justify-center rounded-lg"
-									>
-										<GalleryVerticalEndIcon class="size-4" />
-									</div>
+									<div class="flex aspect-square size-8 items-center justify-center overflow-hidden rounded-lg">
+	<img
+		src="https://hackanomous-assets.vercel.app/assets/asset2.png"
+		alt="Hackanomous logo"
+		class="size-full object-cover"
+	/>
+</div>
 									<div class="flex flex-col gap-0.5 leading-none">
 										<span class="font-semibold">{docsConfig.site.title}</span>
 										<span class="">{docsConfig.versions?.current}</span>
@@ -78,11 +80,13 @@
 					<Sidebar.MenuButton size="lg">
 						{#snippet child({ props })}
 							<a href="/docs" {...props}>
-								<div
-									class="bg-sidebar-primary text-sidebar-primary-foreground flex aspect-square size-8 items-center justify-center rounded-lg"
-								>
-									<GalleryVerticalEndIcon class="size-4" />
-								</div>
+								<div class="flex aspect-square size-8 items-center justify-center overflow-hidden rounded-lg">
+	<img
+		src="https://hackanomous-assets.vercel.app/assets/asset2.png"
+		alt="Hackanomous logo"
+		class="size-full object-cover"
+	/>
+</div>
 								<div class="flex flex-col gap-0.5 leading-none">
 									<span class="font-medium">{docsConfig.site.title}</span>
 									<span class="">v1.0.0</span>
