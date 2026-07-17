@@ -11,9 +11,14 @@ export const docsConfig: DocsConfig = {
 	},
 	sidebar: [
 		{
-			label: 'Getting Started',
+			label: 'Welcome to Hackanomous!',
 			icon: RocketIcon,
-			autogenerate: { directory: 'getting-started' }
+			autogenerate: { directory: 'welcome' }
+		},
+		{
+			label: 'Guides / Tutorials',
+			icon: RocketIcon,
+			autogenerate: { directory: 'guides' }
 		}
 	],
 	toc: {
