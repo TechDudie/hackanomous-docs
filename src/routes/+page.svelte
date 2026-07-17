@@ -12,7 +12,12 @@
 <nav class="bg-background/80 sticky top-0 z-50 border-b backdrop-blur-md">
 	<div class="mx-auto flex h-14 max-w-6xl items-center justify-between px-4">
 		<div class="flex items-center gap-2">
-			<RocketIcon class="text-primary size-6" />
+			<img
+				src="https://hackanomous-assets.vercel.app/assets/asset2.png"
+				alt="Hackanomous logo"
+				class="size-8 rounded-lg"
+			/>
+
 			<span class="font-bold text-lg">Hackanomous</span>
 		</div>
 
@@ -51,6 +56,12 @@
 	></div>
 
 	<div class="relative mx-auto max-w-4xl px-4 py-32 text-center">
+
+<img
+	src="https://hackanomous-assets.vercel.app/assets/asset2.png"
+	alt="Hackanomous logo"
+	class="mx-auto mb-8 size-32 rounded-3xl shadow-lg animate-bounce"
+/>
 
 		<div
 			class="mb-6 inline-flex items-center gap-2 rounded-full border bg-background px-4 py-2 text-sm"
