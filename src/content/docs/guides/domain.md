@@ -1,6 +1,6 @@
 ---
 title: "Getting Your Own Domain"
-description: "Learn how to claim a free Hack Club subdomain for your project."
+description: "Learn how to claim a free Hack Club subdomain for your project. Credit: Macondo Docs"
 order: 3
 ---
 
